@@ -3,10 +3,9 @@ import os
 
 def create_account(ls):
     os.system('clear')
-    account_name = input('Enter Your Name (WITHOUT SPACES): ')
-    account_password = input('Enter Your Password (WITHOUT SPACES): ')
+    account_name = input('Enter Your Name')
+    account_password = input('Enter Your Password')
 
-    print("Creating Your Account ..wait .....")
     accounts_file = open('Allaccounts.txt', 'a')
 
     if len(ls) == 0:
