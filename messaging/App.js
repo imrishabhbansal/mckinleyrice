@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import LoginPage from './components/loginPage';
+import LoginPage from './loginPage';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 function login(name,password) {
